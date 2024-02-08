@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/React_DigiMatch/static/css/main.8e00089c.css",
-    "main.js": "/React_DigiMatch/static/js/main.fb620153.js",
+    "main.js": "/React_DigiMatch/static/js/main.b3a8d34f.js",
     "index.html": "/React_DigiMatch/index.html",
     "main.8e00089c.css.map": "/React_DigiMatch/static/css/main.8e00089c.css.map",
-    "main.fb620153.js.map": "/React_DigiMatch/static/js/main.fb620153.js.map"
+    "main.b3a8d34f.js.map": "/React_DigiMatch/static/js/main.b3a8d34f.js.map"
   },
   "entrypoints": [
     "static/css/main.8e00089c.css",
-    "static/js/main.fb620153.js"
+    "static/js/main.b3a8d34f.js"
   ]
 }
