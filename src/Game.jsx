@@ -245,7 +245,7 @@ function flipAllCards() {
 
   return (
     <div className="game">
-      <h1>DigiMatch</h1>
+      <h1>React DigiMatch</h1>
 
       <div className="info">
         <button className="button" onClick={shuffleCards}>
@@ -253,10 +253,10 @@ function flipAllCards() {
         </button>
         <h3>Turn: {turns}</h3>
         <h3>Matched: {pairsMatched}</h3>
-        <button className="arrayOfCards" onClick={() => console.log(cards)}>
+        {/* <button className="arrayOfCards" onClick={() => console.log(cards)}>
           {" "}
           Show Array of cards{" "}
-        </button>
+        </button> */}
         <button className="arrayOfCards" onClick={flipAllCards}>
           {" "}
           Flip All Cards{" "}
