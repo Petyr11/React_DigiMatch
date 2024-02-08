@@ -1,126 +1,123 @@
 // V1.0
-
-
 import React, { useState,useEffect } from "react";
 import SingleCard from "./components/CardComponent";
 
 
-
-
+var RDM = "React_DigiMatch"
 
 const cardImages = [
   {
-    src: "/digimon png/tcgagumon.webp",
+    src: RDM + "/digimon_png/tcgagumon.webp",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/tcgange.webp",
+    src: RDM + "/digimon_png/tcgange.webp",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/tcgsalamon.webp",
+    src: RDM +"/digimon_png/tcgsalamon.webp",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/tcgpatamon.webp",
+    src: RDM + "/digimon_png/tcgpatamon.webp",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/tcggabumon.webp",
+    src: RDM + "/digimon_png/tcggabumon.webp",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/tcgelecmon.webp",
+    src: RDM + "/digimon_png/tcgelecmon.webp",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/BT1-027.jpg",
+    src: RDM + "/digimon_png/BT1-027.jpg",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/BT3-023.jpg",
+    src: RDM + "/digimon_png/BT3-023.jpg",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/BT3-034.jpg",
+    src: RDM + "/digimon_png/BT3-034.jpg",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/BT7-056.jpg",
+    src: RDM + "/digimon_png/BT7-056.jpg",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/BT12-032.jpg",
+    src: RDM + "/digimon_png/BT12-032.jpg",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/P-010.jpg",
+    src: RDM + "/digimon_png/P-010.jpg",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/P-078.jpg",
+    src: RDM + "/digimon_png/P-078.jpg",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/P-058.jpg",
+    src: RDM + "/digimon_png/P-058.jpg",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/tcgjellymon.webp",
+    src: RDM + "/digimon_png/tcgjellymon.webp",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/tcgmetalgreymon.webp",
+    src: RDM + "/digimon_png/tcgmetalgreymon.webp",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/canoweissmon.webp",
+    src: RDM + "/digimon_png/canoweissmon.webp",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/paildramon.webp",
+    src: RDM + "/digimon_png/paildramon.webp",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/lillymon.webp",
+    src: RDM + "/digimon_png/lillymon.webp",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/exveemon.webp",
+    src: RDM + "/digimon_png/exveemon.webp",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/renamon.webp",
+    src: RDM + "/digimon_png/renamon.webp",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/sistermon.webp",
+    src: RDM + "/digimon_png/sistermon.webp",
     matched: false,
     flipped: false,
   },
   {
-    src: "/digimon png/angoramon.webp",
+    src: RDM + "/digimon_png/angoramon.webp",
     matched: false,
     flipped: false,
   },

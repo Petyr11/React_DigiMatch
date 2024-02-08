@@ -35,7 +35,7 @@ function SingleCard(props) {
           ></img>
           <img
             className="back"
-            src="/digimon png/back.jpg"
+            src="React_DigiMatch/digimon_png/back.jpg"
             alt="img back"
             onClick={handleClick}
             
